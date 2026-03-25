@@ -85,7 +85,7 @@ def judge():
             ain-=atk[ai]
             if ai in dfs[user]["df"]:
                 if user=="盾反":
-                    return atk[user]
+                    return atk[ai]
                 else:
                     return 0
             else:
@@ -133,6 +133,8 @@ print("雷霆:4")
 print("防御:q")
 print("盾反:w")
 print("避雷针:e")
+sleep(1)
+print("每人11点生命值，游戏开始！")
 print("\n")
 sleep(1)
 t=0
