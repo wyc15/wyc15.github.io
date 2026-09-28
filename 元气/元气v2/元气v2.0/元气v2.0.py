@@ -11,7 +11,6 @@ root.configure(background="white")
 root.minsize(800,500)
 root.maxsize(800,500)
 
-
 atk={
     "单龙":1,
     "双龙":2,
