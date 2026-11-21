@@ -131,18 +131,22 @@
         </div>
         <div class="text4">
             <p>
-                如果你对我们有关于任何地方的意见，欢迎提出、提交！
+                如果你对我们有关于任何地方的意见，欢迎在下方给我们留言！
                 <br></br>
                 警告：请勿输入任何不雅内容！
             </p>
-            <form action="https://formsubmit.co/c6c548f8a286fb82e3914a15f65b7b85" method="post">
-                <p>
-                    <input type="text" name="name" placeholder="请填写姓名或昵称" required>
-                    <br></br>
-                    <textarea name="msg" rows="8" cols="80" placeholder="请输入你要反馈的内容" required></textarea>
-                    <br></br>
-                    <button type="submit">提交</button>
-                </p>
+            <form action="https://api.web3forms.com.submit" method="POST">
+                <input type="hidden" name="access_key" value="a2619327-a486-4c96-af34-6d4169ebd818">
+                <input type="hidden" name="subject" value="新的留言">
+                <input type="hidden" name="redirect" value="https://wyc15.github.io/%E5%85%83%E6%B0%94/">
+                <input type="checkbox" name="botcheck" style="display: none;">
+                <label>昵称：</label>
+                <input type="text" name="name" placeholder="请填写姓名或昵称" required>
+                <br></br>
+                <label>留言：</label>
+                <textarea name="msg" rows="8" cols="80" placeholder="请输入你的留言" required></textarea>
+                <br></br>
+                <button type="submit">提交</button>
             </form>
         </div>
     </body>
